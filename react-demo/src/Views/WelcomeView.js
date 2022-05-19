@@ -1,9 +1,16 @@
 import React from "react";
-import Header from "../Components/Header";
+import './WelcomeView.css'
+import Welcome from "../Components/Welcome";
+import SignIn from "../Components/SignIn";
+
 
 const WelcomeView = () => {
     return(
-        <Header/>
+        <div className='view'>
+          <Welcome/>
+            <SignIn/>
+        </div>
+
     )
 }
 

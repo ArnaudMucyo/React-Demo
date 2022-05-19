@@ -1,0 +1,23 @@
+.button{
+    background: #FD5D5D;
+    width: 500px;
+    margin-top: 60px;
+    border: 1px solid #FD5D5D;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+
+.button:active{
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
